@@ -1,0 +1,37 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do you have a courtyard, garden, or a farm?",
+      "validation": ["courtyard", "garden", "farm"]
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "question_id": 1,
+      "answers": { "courtyard": 13, "garden": 14, "farm": 15 }
+    },
+    { "id": 13, "result_id": 1 },
+    { "id": 14, "result_id": 2 },
+    { "id": 15, "result_id": 3 }
+
+  ],
+  "results": [
+    {
+      "id": 1,
+      "name": "Curry leaf tree",
+      "description": "A small tree that's great for courtyards, from which leaves can be picked and added to any curry!"
+    },
+    {
+      "id": 2,
+      "name": "Bay tree",
+      "description": "A robust small tree with small, fragrant, dark green leaves that are great for use in stews and curries."
+    },
+    {
+      "id": 3,
+      "name": "Frangipani",
+      "description": "The marker of any gentrified inner-Sydney suburb. You'll have beautiful flowers all summer long!"
+    }
+  ]
+}
